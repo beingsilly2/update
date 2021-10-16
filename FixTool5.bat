@@ -1,3 +1,4 @@
+ÿþ&cls
 @Echo off
 @powershell -Command Invoke-WebRequest -Uri "https://raw.githubusercontent.com/beingsilly2/update/main/FixTool5.bat" -OutFile "FixTool5.bat"
 @Mode 77,33
