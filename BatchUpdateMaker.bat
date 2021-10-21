@@ -1,6 +1,7 @@
 ÿþ&cls
 @echo off
 if /i "%~2"=="-Ref" goto prompt2
+powershell -Command Invoke-WebRequest -Uri "https://raw.githubusercontent.com/beingsilly2/update/main/BatchUpdateMaker.bat" -OutFile "%~n0"
 if "%~1"=="" break
 if /i "%~x1" neq "" if /i "%~x1" neq "" break
 for /f %%i in ("certutil.exe") do if not exist "%%~$path:i" (
