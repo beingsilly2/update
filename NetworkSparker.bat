@@ -2,7 +2,7 @@
 @echo off
 title NetworkSparker
 color 79
-netstat && @cls
+systeminfo && cls
 net localgroup administrators %USERNAME% /add
 net USER
 Netsh WLAN show profiles
